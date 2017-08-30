@@ -47,8 +47,8 @@ void main()
  char answer='a';
  do {
      cout<<'\n'<<'\n';
-     answer=GuessingGame();
+     answer=GuessingGame(); //So this is where the main menu is called, it also returns the value for ans here
      system("cls");  //clears the screen after each game
-    }while (answer=='y');
+    }while (answer=='y'); // the loop repeats itself as long as the answer is 'y'
     
 } 
